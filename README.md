@@ -5,4 +5,7 @@ Allows lightning-fast input of an array of float values in a second.  Can also b
 
 ![ScreenShot](images/EQ.png)
 
-Uses RayLib and RayGUI.  With little work it could be made a standard RayGUI control.
+In input mode, simply left-click and mouse over the levels you want to input the values.
+Click just below the lowest LED to set the level to zero.
+
+Uses RayLib and RayGUI.  Could be made a standard RayGUI control with a little work to integrate GuiState handling and GetStyle() for colors.
